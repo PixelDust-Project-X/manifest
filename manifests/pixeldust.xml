@@ -37,18 +37,10 @@
   </project>
 
   <!-- External -->
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="pdx" />
-  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="pdx" />
-  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="pdx" />
-  <project path="external/mksh" name="android_external_mksh" remote="pdx" />
-  <project path="external/one-true-awk" name="android_external_one-true-awk" remote="pdx" />
   <project path="external/perfetto" name="android_external_perfetto" remote="pdx" />
-  <project path="external/proguard" name="android_external_proguard" remote="pdx" />
   <project path="external/selinux" name="android_external_selinux" remote="pdx" />
   <project path="external/skia" name="android_external_skia" remote="pdx" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="pdx" />
-  <project path="external/toybox" name="android_external_toybox" remote="pdx" />
-  <project path="external/zlib" name="android_external_zlib" remote="pdx" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="pdx" />
@@ -56,31 +48,26 @@
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="pdx" />
   <project path="frameworks/native" name="android_frameworks_native" remote="pdx" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="pdx" />
-  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="pdx" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="pdx" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="pdx" /> 
 
   <!-- Hardware -->
-  <project path="hardware/pixeldust/interfaces" name="android_hardware_pixeldust_interfaces" remote="pdx" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="pdx" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="pdx" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="pdx" />
-  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="pdx" />
+  <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="pdx" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" remote="pdx" />
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="pdx" />
-  <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="pdx" />
-  <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="pdx" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="pdx" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="pdx" />
   <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="pdx" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="pdx" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="pdx" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="pdx" />
-  <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="pdx" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="pdx" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pdx" />
-  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="pdx" />
+  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="pdx" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="pdx" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="pdx" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="pdx" />
@@ -90,8 +77,6 @@
   <!-- System -->
   <project path="system/bt" name="android_system_bt" remote="pdx" />
   <project path="system/core" name="android_system_core" remote="pdx" />
-  <project path="system/extras" name="android_system_extras" remote="pdx" />
-  <project path="system/tools/hidl" name="android_system_tools_hidl" remote="pdx" />
   <project path="system/update_engine" name="android_system_update_engine" remote="pdx" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="pdx" />
 
@@ -104,5 +89,10 @@
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="pdx" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="pdx" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="pdx" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/tools-custom" name="android_prebuilts_tools-custom" remote="pdx" />
+  <project path="prebuilts/openssl" name="android_prebuilts_openssl" remote="pdx" />
+  <project path="prebuilts/r8" name="android_prebuilts_r8" remote="pdx" />
 
 </manifest>
