@@ -80,6 +80,7 @@
   <project path="system/core" name="android_system_core" remote="pdx" />
   <project path="system/update_engine" name="android_system_update_engine" remote="pdx" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="pdx" />
+  <project path="system/qcom" name="android_system_qcom" remote="pdx" />
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="pdx" />
