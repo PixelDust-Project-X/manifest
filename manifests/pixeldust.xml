@@ -54,6 +54,7 @@
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="pdx" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="pdx" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="pdx" />
+  <project path="hardware/pixeldust/interfaces" name="android_hardware_pixeldust_interfaces" remote="pdx" />
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="pdx" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" remote="pdx" />
 
