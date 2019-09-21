@@ -57,6 +57,7 @@
   <project path="hardware/pixeldust/interfaces" name="android_hardware_pixeldust_interfaces" remote="pdx" />
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="pdx" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" remote="pdx" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="pdx" />
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="pdx" />
