@@ -98,4 +98,7 @@
   <project path="prebuilts/openssl" name="android_prebuilts_openssl" remote="pdx" />
   <project path="prebuilts/r8" name="android_prebuilts_r8" remote="pdx" />
 
+  <!-- Pixel Gapps -->
+  <project path="vendor/googleapps" name="spezi77/vendor_googleapps" remote="gitlab" revision="ten" />
+
 </manifest>
