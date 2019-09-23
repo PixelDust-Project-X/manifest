@@ -100,6 +100,6 @@
   <project path="prebuilts/r8" name="android_prebuilts_r8" remote="pdx" />
 
   <!-- Pixel Gapps -->
-  <project path="vendor/googleapps" name="spezi77/vendor_googleapps" remote="gitlab" revision="ten" />
+  <project path="vendor/pixelgapps" name="spezi77/android_vendor_pixelgapps" remote="gitlab" revision="ten" />
 
 </manifest>
