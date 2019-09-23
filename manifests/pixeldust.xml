@@ -95,6 +95,7 @@
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="pdx" />
 
   <!-- Prebuilts -->
+  <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="pdx" />
   <project path="prebuilts/tools-custom" name="android_prebuilts_tools-custom" remote="pdx" />
   <project path="prebuilts/openssl" name="android_prebuilts_openssl" remote="pdx" />
   <project path="prebuilts/r8" name="android_prebuilts_r8" remote="pdx" />
