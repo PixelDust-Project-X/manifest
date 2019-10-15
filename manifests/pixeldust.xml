@@ -40,6 +40,7 @@
   <project path="device/pixeldust/sepolicy" name="android_device_pixeldust_sepolicy" remote="pdx" />
 
   <!-- External -->
+  <project path="external/libbfqio" name="android_external_libbfqio" remote="pdx" />
   <project path="external/perfetto" name="android_external_perfetto" remote="pdx" />
   <project path="external/selinux" name="android_external_selinux" remote="pdx" />
   <project path="external/skia" name="android_external_skia" remote="pdx" />
