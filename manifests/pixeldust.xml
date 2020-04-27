@@ -59,6 +59,7 @@
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="pdx" />
   <project path="frameworks/native" name="android_frameworks_native" remote="pdx" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="pdx" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="pdx" />
   <project path="frameworks/opt/slimrecent" name="android_frameworks_opt_slimrecent" remote="pdx" /> 
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="pdx" /> 
 
