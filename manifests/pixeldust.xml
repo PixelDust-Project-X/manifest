@@ -15,6 +15,10 @@
            fetch="https://github.com/PixelDust-Devices"
            revision="refs/heads/ten" />
 
+  <remote  name="alternate"
+           fetch="https://git.dirtyunicorns.com/DirtyUnicorns/"
+           revision="refs/heads/q10x" />
+
   <!-- Manifest -->
   <project path="manifest" name="manifest" remote="pdx" />
 
