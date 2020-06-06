@@ -50,7 +50,9 @@
 
   <!-- External -->
   <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="pdx" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="pdx" />
   <project path="external/google" name="android_external_google" remote="pdx" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="pdx" />
   <project path="external/libbfqio" name="android_external_libbfqio" remote="pdx" />
   <project path="external/perfetto" name="android_external_perfetto" remote="pdx" />
   <project path="external/selinux" name="android_external_selinux" remote="pdx" />
