@@ -50,6 +50,7 @@
 
   <!-- External -->
   <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="pdx" />
+  <project path="external/asus/stitchimage" name="android_external_asus_stitchimage" remote="pdx" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="pdx" />
   <project path="external/google" name="android_external_google" remote="pdx" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="pdx" />
